@@ -18,6 +18,10 @@ class _SwitchEntradaAutomaticaState extends State<SwitchEntradaAutomatica> {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Switch(
+            trackOutlineColor: MaterialStateProperty.all(Colors.white),
+            activeTrackColor: Colors.white70,
+            inactiveThumbColor: Colors.white,
+            inactiveTrackColor: Colors.white70,
             value: entradaAutomatica,
             activeColor: Colors.white,
             onChanged: (bool value) {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tela_de_login_01/core/ui/styles/theme_app.dart';
 import 'rotas/rotas.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,6 +7,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(debugShowCheckedModeBanner: false, initialRoute: '/', onGenerateRoute: Rota.generatoRoute);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeApp.themeDart,
+      initialRoute: '/',
+      onGenerateRoute: Rota.generatoRoute,
+    );
   }
 }
