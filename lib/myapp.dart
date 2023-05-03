@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tela_de_login_01/core/ui/styles/theme_app.dart';
-import 'rotas/rotas.dart';
+import 'routes/rotas.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeApp.themeDart,
       initialRoute: '/',
-      onGenerateRoute: Rota.generatoRoute,
+      onGenerateRoute: Rotas.generatoRoute,
     );
   }
 }

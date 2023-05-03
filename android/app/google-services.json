@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515157658338",
+    "project_id": "loginfirebaseflutter-93326",
+    "storage_bucket": "loginfirebaseflutter-93326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515157658338:android:a64457f282561b22c3ecbb",
+        "android_client_info": {
+          "package_name": "com.example.tela_de_login_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515157658338-ijotu3j6uag8u9h1sp65km2bk4d5k661.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ4Yhs3ZQ9MSCMWdXY0qHt6nhuq5u7mVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515157658338-ijotu3j6uag8u9h1sp65km2bk4d5k661.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

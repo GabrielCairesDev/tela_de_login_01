@@ -1,8 +1,10 @@
+
 import 'package:flutter/material.dart';
 
-class BotaoEntrar extends StatelessWidget {
+class BotaoPadrao extends StatelessWidget {
   final String textoBotao;
-  const BotaoEntrar({super.key, required this.textoBotao});
+  final Function()? onPressed;
+  const BotaoPadrao({super.key, required this.textoBotao, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +14,7 @@ class BotaoEntrar extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 234, 77, 114),
           fixedSize: const Size(500, 50),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25))),
-      onPressed: () {},
+      onPressed: onPressed,
       child: Text(textoBotao, style: const TextStyle(fontSize: 20)),
     );
   }
