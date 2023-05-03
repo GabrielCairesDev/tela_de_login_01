@@ -2,17 +2,13 @@
 ![02](https://user-images.githubusercontent.com/87619428/235965291-f8828558-517e-4424-adc4-fc0a52213be7.jpg)
 # tela_de_login_01
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Aplicativo de estudos (Tela de Login com Firebase)
 
-A few resources to get you started if this is your first Flutter project:
+Projeto Flutter/dart/firebase/shared_preferences
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Sobre o Aplicativo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Este é um projeto criado com o frameork Flutter baseado na linguagem de programação Dart.
+- Usando Firebase, shared_preferences e provider
